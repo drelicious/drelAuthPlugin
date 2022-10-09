@@ -55,6 +55,7 @@ public class events implements Listener {
             @Override
             public void run() {
                 databaseAPI.clearEverythingOnTable(DB_URL(), USER(), PASS());
+                Bukkit.getLogger().info("MYSQL Auto-Delete is active! EVERY 30 MINUTES!");
             }
         }, 0L, 18000L);
     }
