@@ -1,0 +1,3 @@
+name: DreliAuthSpigot
+version: '${project.version}'
+main: drelarc.dreliauthspigot.DreliAuthSpigot
